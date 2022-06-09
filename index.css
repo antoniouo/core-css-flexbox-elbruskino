@@ -1,0 +1,57 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px 0 50px;
+    background-color: rgb(82, 0, 174);       
+}
+
+.menu_items{
+    display:flex;
+    justify-content: space-around;
+    margin: 0px 20px 0px 20px; 
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(85, 183, 201);      
+}
+
+.menu_items:hover {
+    color: yellow;
+}
+
+.menu {
+    display:flex;    
+}
+
+.title {
+    display: flex;
+    margin-left: 318px;    
+}
+
+.new {
+    display: flex;
+    justify-content: center;
+}
+
+.names {
+    font-weight: bold; 
+}
+
+.recommend {
+    display: flex;
+    justify-content: center;   
+}
+
+.logo h1, .cabinet h2{
+    color: rgb(111, 233, 254)
+}
+
+.new_film, .rec_film{
+    margin: 0 30px 0 30px
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: rgb(82, 0, 174)    
+} 
